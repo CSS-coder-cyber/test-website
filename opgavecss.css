@@ -1,0 +1,51 @@
+body {
+  color: black;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(210, 197, 180);
+  font-weight: bold;
+  border-top: 4px solid black;
+  border-right: 4px solid black;
+  border-left: 4px solid black;
+  border-bottom: 4px solid black;
+}
+.oppe {
+  background-color: #8b7861;
+}
+
+.pic {
+  width: 50px;
+}
+
+.doto- {
+  font-family: "Doto-", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings: "ROND" 0;
+}
+
+.list {
+  color: rgb(86, 86, 86);
+}
+
+.list2 {
+  color: rgb(86, 86, 86);
+}
+
+.list3 {
+  color: rgb(86, 86, 86);
+}
+
+.navn {
+  box-sizing: border-box;
+}
+
+.email {
+  box-sizing: border-box;
+}
+
+.besked {
+  box-sizing: border-box;
+}

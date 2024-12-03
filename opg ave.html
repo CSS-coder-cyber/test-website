@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="opgavecss.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title class="top">Sami, jeg laver en HTML kode i dag.</title>
+  </head>
+  <style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Layout til små skærme */
+    @media (max-width: 600px) {
+        h1 {
+            font-size: 1.5rem;
+        }
+        p {
+            font-size: 1rem;
+        }
+    }
+
+    /* Layout til tablets */
+    @media (min-width: 601px) and (max-width: 1024px) {
+        h1 {
+            font-size: 2rem;
+        }
+        p {
+            font-size: 1.2rem;
+        }
+    }
+
+    /* Layout til desktops */
+    @media (min-width: 1025px) {
+        h1 {
+            font-size: 2.5rem;
+        }
+        p {
+            font-size: 1.5rem;
+        }
+    }
+</style>
+  <body>
+    <div class="container">
+  </div>
+    <p><h2 class="oppe">Sami kode opgave</h2></p>
+    <p class="doto-">
+      Jeg hedder Sami og jeg er 15 år gammel og jeg bliver snart 16 år gammel,
+      jeg bliver 16 år gammel den 20 December, jeg elsker at side og kode på
+      hacking tools eller lave hjemmeside. Jeg har 2 midre søskende, en
+      lillebror på 2 år og en lillesøster på 6 år. Jeg bor med min mor og min
+      papfar, jeg elsker at være med mine venner og være ude og spise med dem.
+      Min bedste ven hedder Gustav, mig og Gustav har været venner i snart 2 år.
+      Mig og Gustav elsker at spise shawarma.
+    </p> <img src="c.jpg" alt="Eksempelbillede" class="responsive-image pic">
+
+    <ul>
+      <li class="list">
+        Jeg kan godt lide at kode i HTML og lave hjemmesider.
+      </li>
+      <li class="list2">
+        Jeg kan godt lide at spille Counter Strike, GTA 5 og FiveM.
+      </li>
+      <li class="list3">Jeg elsker at lære nye ting som ting i skolen.</li>
+    </ul>
+
+    <title>Kontaktformular</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        form {
+            max-width: 400px;
+            margin: auto;
+        }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Kontakt os</h2>
+
+<form action="/send" method="post">
+    <label for="navn">Navn:</label>
+    <input type="text" class="navn" name="navn" placeholder="Dit navn" required>
+
+    <label for="email">Email:</label>
+    <input type="email" class="email" name="email" placeholder="Din email" required>
+
+    <label for="besked">Besked:</label>
+    <textarea class="besked" name="besked" rows="5" placeholder="Din besked" required></textarea>
+
+    <button type="submit">Send</button>
+</form>
+  </body>
+</html>
